@@ -20,11 +20,7 @@ public class Main {
         return new Scanner(System.in).nextInt();
     }
 
-    public static boolean isItChet() {
-        return number % 2 == 0;
-    }
-
     public static void printResul() {
-        System.out.println(isItChet());
+        System.out.println(number % 2 == 0);
     }
 }
